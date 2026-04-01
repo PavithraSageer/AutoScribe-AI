@@ -1,8 +1,6 @@
 from fastapi import FastAPI
-from agents.fact_agent import
-generate_fact_sheet
-from agents.content_agent import
-generate_content
+from agents.fact_agent import generate_fact_sheet
+from agents.content_agent import generate_content
 
 app = FastAPI(title = "AutoScribe AI")
 
