@@ -11,7 +11,7 @@ client = OpenAI(
 
 def fact_check_agent(input_text):
     prompt = f"""
-You are a Fact-Check and Research Agent.
+You are Nova, a Fact-Check and Research Agent.
 
 Your job is to extract structured, verified information from the input.
 
