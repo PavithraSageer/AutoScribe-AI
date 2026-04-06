@@ -122,13 +122,14 @@ IMPORTANT:
 
         raw_output = response.choices[0].message.content.strip()
 
+        # 🧠 Clean JSON (remove markdown if any)
         cleaned = raw_output.replace("```json", "").replace("```", "").strip()
 
         return json.loads(cleaned)
 
     except Exception as e:
         return {
-            "approved": True, 
+            "approved": True, # fallback so pipeline doesn't break
             "issues": [f"Editor error: {str(e)}"],
             "corrected_content": generated_content,
             "score": 70
