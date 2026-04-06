@@ -4,6 +4,7 @@ import json
 import fitz
 from fastapi import FastAPI, UploadFile, File, HTTPException, Form
 from fastapi.concurrency import run_in_threadpool
+from fastapi.middleware.cors import CORSMiddleware  # <--- 1. Add this import
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -14,6 +15,14 @@ from backend.agents.editor_agent import editor_agent
 
 app = FastAPI()
 
+# 2. Add this CORS block right after app = FastAPI()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allows all origins (perfect for testing with Lovable)
+    allow_credentials=True,
+    allow_methods=["*"],  # Allows all methods (POST, GET, etc.)
+    allow_headers=["*"],  # Allows all headers
+)
 
 def clean_text(text: str) -> str:
     return re.sub(r'\s+', ' ', text).strip()
