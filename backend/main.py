@@ -7,7 +7,7 @@ import os
 
 # Import agents
 from agents.fact_agent import fact_check_agent
-from agents.content_agent import copywriter_agent
+from agents.copywriter_agent import copywriter_agent
 from agents.editor_agent import editor_agent
 
 
