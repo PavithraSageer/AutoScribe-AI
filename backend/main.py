@@ -8,9 +8,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from agents.fact_agent import fact_check_agent
-from agents.copywriter_agent import copywriter_agent
-from agents.editor_agent import editor_agent
+from backend.agents.fact_agent import fact_check_agent
+from backend.agents.copywriter_agent import copywriter_agent
+from backend.agents.editor_agent import editor_agent
 
 app = FastAPI()
 
