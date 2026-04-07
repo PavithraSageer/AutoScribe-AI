@@ -54,3 +54,7 @@ npm run dev
 ```
 
 ---
+
+## Notes
+- The backend is hosted on Render and may take a few seconds to respond due to cold starts
+- Response time may vary depending on input size and model processing
