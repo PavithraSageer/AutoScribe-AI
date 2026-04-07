@@ -36,6 +36,9 @@ This approach ensures content is **fact-grounded, consistent, and easy to genera
 
 ---
 
+## Demo Video
+Click the following link to access a complete walkthrough of the project : https://drive.google.com/file/d/1NDGw6WcVFLCz78oaG-YGtR9kl2hLGKRy/view?usp=drive_link
+
 ## Setup Instructions
 ### 1. Backend Setup
 The backend is deployed on Render and can be accessed here : https://autoscribe-ai-1-qlub.onrender.com
