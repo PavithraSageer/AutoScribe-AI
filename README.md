@@ -36,8 +36,11 @@ This approach ensures content is **fact-grounded, consistent, and easy to genera
 
 ---
 
-## Demo Video
+## Demo Video and Approach Document
 Click the following link to access a complete walkthrough of the project : https://drive.google.com/file/d/1NDGw6WcVFLCz78oaG-YGtR9kl2hLGKRy/view?usp=drive_link
+Click the following link to access Approach Document (Also present in APPROACH.md) : https://docs.google.com/document/d/1J_3ULAhqdzhPDSkYtnlsuqb-bD9-b4sc/edit?usp=drivesdk&ouid=112644317069817918372&rtpof=true&sd=true
+
+---
 
 ## Setup Instructions
 ### 1. Backend Setup
